@@ -23,13 +23,13 @@ module Docs
               response 200 do
                 key :description, 'badge response'
                 schema do
-                  key :'$ref', :badge
+                  key :'$ref', :Badge
                 end
               end
               response :default do
                 key :description, 'unexpected error'
                 schema do
-                  key :'$ref', :ErrorModel
+                  key :'$ref', :Error
                 end
               end
             end

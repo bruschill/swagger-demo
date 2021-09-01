@@ -3,7 +3,7 @@ module Docs
     class Badge
       include Swagger::Blocks
 
-      swagger_schema :Pet do
+      swagger_schema :Badge do
         key :required, [:id, :name]
         property :id do
           key :type, :integer
