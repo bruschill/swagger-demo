@@ -1,0 +1,15 @@
+current directory: /Users/bruschill/Documents/code/swagger-demo/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+/Users/bruschill/.rbenv/versions/2.6.7/bin/ruby -I /Users/bruschill/.rbenv/versions/2.6.7/lib/ruby/2.6.0 -r ./siteconf20210901-20985-agh65i.rb extconf.rb
+creating Makefile
+
+current directory: /Users/bruschill/Documents/code/swagger-demo/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" clean
+
+current directory: /Users/bruschill/Documents/code/swagger-demo/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR="
+compiling websocket_mask.c
+linking shared-object websocket_mask.bundle
+
+current directory: /Users/bruschill/Documents/code/swagger-demo/vendor/bundle/ruby/2.6.0/gems/websocket-driver-0.7.5/ext/websocket-driver
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 websocket_mask.bundle ./.gem.20210901-20985-1gbwcxd
